@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FlyMidwest</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Cabin_400.font.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.main, .tabs ul.nav a, .content, .button1, .box1, .top { behavior:url("../js/PIE.htc")}</style>
+<![endif]-->
+</head>
+<body id="page1">
+<div class="main">
+  <!--header -->
+  <header>
+    <div class="wrapper">
+      
+      <h1><a href="index.html" id="logo"></a></h1>
+      <span id="slogan">"Proud Airline of the Midwest"</span>
+      <nav id="top_nav">
+        <ul>
+          <li><a href="index.html" class="nav1">Home</a></li>
+          <li><a href="#" class="nav2">Sitemap</a></li>
+          <li><a href="contacts.html" class="nav3">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li id="menu_active"><a href="index.html"><span><span>Home</span></span></a></li>
+        <li><a href="offers.html"><span><span>Deals</span></span></a></li>
+        <li><a href="book.html"><span><span>Book</span></span></a></li>
+        <li><a href="services.html"><span><span>Information</span></span></a></li>
+        <li><a href="safety.html"><span><span>About</span></span></a></li>
+        <li class="end"><a href="contacts.html"><span><span>Contacts</span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- / header -->
+  <!--content -->
+  <section id="content">
+    <div class="for_banners">
+      <article class="col1">
+        <div class="tabs">
+          <ul class="nav">
+            <li class="selected"><a href="#Flight">Find a Flight</a></li>
+          
+          </ul>
+          <div class="content">
+            <div class="tab-content" id="Flight">
+              <form id="form_1" action="#" method="post">
+                <div>
+                  <div class="radio">
+                    <div class="wrapper">
+                      <input type="radio" name="name1" checked>
+                      <span class="left">Economy</span>
+                      <input type="radio" name="name1">
+                      <span class="left">Buisness</span> 
+                      <input type="radio" name="name1">
+                      <span class="left">First Class</span> </div>
+                  </div>
+                  <div class="row"> <span class="left">From</span>
+                    <input type="text" class="input">
+                  </div>
+                  <div class="row"> <span class="left">To</span>
+                    <input type="text" class="input">
+                  </div>
+                  <div class="wrapper">
+                    <div class="col1">
+                      <div class="row"> <span class="left">Outbound</span>
+                        <input type="text" class="input1" value="03.05.2011"  onblur="if(this.value=='') this.value='03.05.2019'" onFocus="if(this.value =='03.05.2011' ) this.value=''">
+                      </div>
+                      <div class="row"> <span class="left">Return</span>
+                        <input type="text" class="input1" value="10.05.2011"  onblur="if(this.value=='') this.value='10.05.2019'" onFocus="if(this.value =='10.05.2011' ) this.value=''">
+                      </div>
+                    </div>
+                    <input type="text" class="input1 marg_top1" value="+/- 0 Days"  onblur="if(this.value=='') this.value='+/- 0 Days'" onFocus="if(this.value =='+/- 0 Days' ) this.value=''">
+                  </div>
+                  <div class="row"> <span class="left">Adults</span>
+                    <input type="text" class="input2" value="2"  onblur="if(this.value=='') this.value='2'" onFocus="if(this.value =='2' ) this.value=''">
+                  </div>
+                  <div class="row"> <span class="left">Children</span>
+                    <input type="text" class="input2" value="0"  onblur="if(this.value=='') this.value='0'" onFocus="if(this.value =='0' ) this.value=''">
+                    <span class="pad_left1">(0-11 years)</span> </div>
+                  <div class="wrapper"> <span class="right relative"><a href="#" class="button1"><strong>Search</strong></a></span> <a href="#" class="link1">More Options</a> </div>
+                </div>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </article>
+      <!-- Container for the image gallery -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/Indianapolis.jpg"width="45%">
+    <img src="images/SiouxFalls.jpg"width="45%">
+
+  </div>
+  <div class="column">
+    <img src="images/Chicago.jpg"width="90%">
+
+  </div> 
+  <div class="column">
+      <img src="images/milwaukee.jpg"width="45%"height="90%">
+      <img src="images/TwinCities.jpg"width="45%">
+
+
+  </div>
+  <div class="column">
+
+  </div>
+</div>
+    </div>
+    <div class="wrapper pad1">
+      <article class="col1">
+        <div class="box1">
+          <h2 class="top">Midwestern US Deals</h2>
+          <div class="pad"> <strong>From St. Louis Lambert [STL]</strong><br>
+            <ul class="pad_bot1 list1">
+              <li> <span class="right color1">from $39.-</span> <a href="book2.html">Kansas City [KCI]</a> </li>
+            </ul>
+            <li> <span class="right color1">from $39.-</span> <a href="book2.html"> Sioux Falls [FSD] </a> </li>
+          </ul>
+            <strong>From Chicago [ORD]</strong><br>
+            <ul class="pad_bot1 list1">
+              <li> <span class="right color1">from  $35.-</span> <a href="book2.html">Madison, WI [MSN]</a> </li>
+              <li> <span class="right color1">from  $40.-</span> <a href="book2.html">Minneapolis - Saint Paul [MSP]</a> </li>
+            </ul>
+            <strong>From Indianapolis [IND]</strong><br>
+            <ul class="pad_bot2 list1">
+              <li> <span class="right color1">from  $50.-</span> <a href="book2.html">Milwaulke, WI [MKE]</a> </li>
+              <li> <span class="right color1">from  $40.-</span> <a href="book2.html">Chicago [ORD]</a> </li>
+
+            </ul>
+          </div>
+          
+      </article>
+
+    </div>
+  </section>
+  <!--content end-->
+  <!--footer -->
+  <footer>
+    <div class="wrapper">
+      <ul id="icons">
+        <li><a href="#" class="normaltip"><img src="images/icon1.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon2.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon3.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon4.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon5.jpg" alt=""></a></li>
+        <li><a href="#" class="normaltip"><img src="images/icon6.jpg" alt=""></a></li>
+      </ul>
+      <div class="links">Copyright Midwest Airlines &copy; <a href="#">FlyMidwest</a> All Rights Reserved<br>
+       </div>
+    </div>
+  </footer>
+  <!--footer end-->
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+$(document).ready(function () {
+    tabs.init();
+});
+jQuery(document).ready(function ($) {
+    $('#form_1, #form_2, #form_3').jqTransform({
+        imgPath: 'jqtransformplugin/img/'
+    });
+});
+$(window).load(function () {
+    $('#slider').nivoSlider({
+        effect: 'fade', //Specify sets like: 'fold,fade,sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft' 
+        slices: 15,
+        animSpeed: 500,
+        pauseTime: 6000,
+        startSlide: 0, //Set starting Slide (0 index)
+        directionNav: false, //Next & Prev
+        directionNavHide: false, //Only show on hover
+        controlNav: false, //1,2,3...
+        controlNavThumbs: false, //Use thumbnails for Control Nav
+        controlNavThumbsFromRel: false, //Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', //Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+        keyboardNav: true, //Use left & right arrows
+        pauseOnHover: true, //Stop animation while hovering
+        manualAdvance: false, //Force manual transitions
+        captionOpacity: 1, //Universal caption opacity
+        beforeChange: function () {},
+        afterChange: function () {},
+        slideshowEnd: function () {} //Triggers after all slides have been shown
+    });
+});
+</script>
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+} 
+</script>
+</body>
+</html>
